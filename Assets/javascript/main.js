@@ -55,7 +55,7 @@ function display20Flips() {
   }
   return add;
 }
-// console.log(display20Flips());
+console.log(display20Flips());
 
 /*Write a function called display20Images, 
 again using a loop to flip the coin 20 times…
@@ -66,7 +66,6 @@ display the result of each flip as an HTML IMG element on the page
 function display20Images() {
   for (let i = 0; i < 19; i++) {
     coin.flip();
-
     // let img = document.createElement("img");
     // body = document.querySelector("body");
 
@@ -75,6 +74,7 @@ function display20Images() {
 
     console.log(coin.toHTML(), coin.flip());
   }
+  // display20Flips();
   return coin.toHTML();
 }
 
